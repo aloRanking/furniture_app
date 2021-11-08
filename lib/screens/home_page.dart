@@ -320,7 +320,7 @@ class FurnitureItem extends StatelessWidget {
                     Align(
                       alignment: Alignment.center,
                       child: Hero(
-                        tag: 'image',
+                        tag: 'image${chairDetails.id}',
                         child: Image.asset(chairDetails.image,),
                       ),
                     ),
